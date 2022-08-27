@@ -1,0 +1,48 @@
+str_5 = "5"
+int_5 = int(str_5)
+print(int_5 + 2)
+
+str_5 = "5.04"
+float_5 = float(str_5)
+print(float_5 + 2.03)
+
+str_6 = "12"
+int_6 = 12
+print(str_6 + str(int_6))
+
+weigth = 0.2
+animal = "newt"
+print("{weigth} kg is the weigth of the {name}".format(
+    weigth = weigth, name = animal
+))
+
+'''print("{} kg is the weigth of the {}".format(
+    weigth = weigth, name = animal
+))'''
+
+print("{0} kg is the weigth of the {1}".format(
+    weigth, animal
+))
+
+string_1 = "{0} kg is the weigth of the {1}".format(weigth, animal)
+print(string_1)
+
+print("AAA".find("f"))
+
+string_1 = "version 2.0"
+float_1 = 2.0
+print(string_1.find(str(float_1)))
+
+response = input("Input your text ")
+letter = "a"
+print(response.find(letter))
+
+response = input("Enter some text: ")
+response = response.replace("a", "4")
+response = response.replace("b", "8")
+response = response.replace("e", "3")
+response = response.replace("l", "1")
+response = response.replace("o", "0")
+response = response.replace("s", "5")
+response = response.replace("t", "7")
+print(response)
