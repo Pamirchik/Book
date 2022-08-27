@@ -1,0 +1,31 @@
+print('Print a string that uses double quotation marks " inside the string')
+
+print("Print a string that uses an apostrophe' (single quote) inside the string")
+
+print('Print a string that spans \n across multiple lines')
+
+print('one-line string \
+that has been written out \
+on multiple lines')
+
+my_string = "something"
+print(len(my_string))
+
+string_1 = "some"
+string_2 = "thing"
+string_3 = string_1 + string_2
+print(string_3)
+
+print(string_1, string_2)
+
+my_string = "bazinga"
+print(my_string[2:6])
+
+response = input("Input some text: ")
+print(response)
+
+string_4 = "SOMETHING"
+print(string_4.lower())
+
+password = input("Tell me your password: ")
+print(password[0].upper())
